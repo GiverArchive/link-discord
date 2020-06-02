@@ -65,15 +65,15 @@ public class Comando implements CommandExecutor
     main.sendPlayer(player, main.getConfig().getString("servidor.sucesso"));
     main.sendPlayer(player,"&esua token: &f" + token);
 
+    final String name = player.getName();
+
     new BukkitRunnable()
     {
       @Override
       public void run()
       {
-
-        Document playerDocN = new Document("nick", player.getName());
-
-        Document findAssoN = (Document) main.getAssociados().find(playerDocN).first();
+        Document playerDocN = new Document("nick", name);
+        Document findAssoN = (Document) main.getAnalise().find(playerDocN).first();
 
         if(findAssoN == null)
         {
@@ -82,7 +82,7 @@ public class Comando implements CommandExecutor
 
         main.getAnalise().deleteOne(findAssoN);
       }
-    }.runTaskLaterAsynchronously(main, 20 * 60 * 10);
+    }.runTaskLaterAsynchronously(main, 20 * 300);
 
     return true;
   }
