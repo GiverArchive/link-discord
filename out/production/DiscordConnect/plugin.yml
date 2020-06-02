@@ -1,0 +1,9 @@
+name: DiscordConnect
+version: 1.0.0
+author: GiverPlay007
+description: 'Associar servidor com o Discord'
+main: me.giverplay.discordconnect.DiscordConnect
+commands:
+  discord:
+    description: 'Comando principal'
+    aliases: [dc]

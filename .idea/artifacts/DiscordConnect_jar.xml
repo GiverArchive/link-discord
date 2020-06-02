@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DiscordConnect:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DiscordConnect_jar</output-path>
+    <root id="archive" name="DiscordConnect.jar">
+      <element id="module-output" name="DiscordConnect" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/bson/4.0.3/bson-4.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.12.4/mongo-java-driver-3.12.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
