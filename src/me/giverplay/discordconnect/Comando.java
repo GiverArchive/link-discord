@@ -35,9 +35,7 @@ public class Comando implements CommandExecutor
     }
 
     Player player = (Player) commandSender;
-
     Document playerDoc = new Document("nick", player.getName());
-
     Document findAsso = (Document) main.getAssociados().find(playerDoc).first();
 
     if(findAsso != null)
