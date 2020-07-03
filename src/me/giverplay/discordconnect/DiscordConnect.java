@@ -4,6 +4,8 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+
+import org.bson.Document;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -19,8 +21,8 @@ public class DiscordConnect extends JavaPlugin
 
   private MongoClient client;
   private MongoDatabase mongodb;
-  private MongoCollection associados;
-  private MongoCollection analise;
+  private MongoCollection<Document> associados;
+  private MongoCollection<Document> analise;
 
   public static String getPrefix()
   {
@@ -52,7 +54,7 @@ public class DiscordConnect extends JavaPlugin
     return this.mongodb;
   }
 
-  public MongoCollection getAssociados()
+  public MongoCollection<Document> getAssociados()
   {
     return this.associados;
   }
@@ -62,7 +64,7 @@ public class DiscordConnect extends JavaPlugin
     return client;
   }
 
-  public MongoCollection getAnalise()
+  public MongoCollection<Document> getAnalise()
   {
     return analise;
   }

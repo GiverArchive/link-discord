@@ -30,7 +30,7 @@ public class Comando implements CommandExecutor
 
     if(!(commandSender instanceof Player))
     {
-      commandSender.sendMessage(main.getPrefix() + "&cComando disponível apenas para jogadores");
+      commandSender.sendMessage(DiscordConnect.getPrefix() + "&cComando disponível apenas para jogadores");
       return true;
     }
 
