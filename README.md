@@ -1,0 +1,3 @@
+# discordconnect
+Linkar servidor de Minecraft com Discord  
+Projeto inacabado...
