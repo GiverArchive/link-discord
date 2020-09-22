@@ -1,3 +1,3 @@
-# discordconnect
+# Discord Linker
 Linkar servidor de Minecraft com Discord  
 Projeto inacabado...
