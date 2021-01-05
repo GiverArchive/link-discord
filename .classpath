@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Herobrine/Desktop/Desenvolvimento/Jars/bson-4.1.0-beta2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Herobrine/Desktop/Desenvolvimento/Jars/mongo-java-driver-3.12.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Herobrine/Desktop/Desenvolvimento/Jars/spigot.1.8.jar"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
